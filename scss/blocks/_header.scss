@@ -1,0 +1,31 @@
+.header {
+    margin-top: 16px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border: 1px solid #c0bcb3;
+    border-radius: 32px;
+}
+
+.header__nav {
+    font-size: 14px;
+    color: #c0bcb3;
+    margin-right: 24px;
+    font-weight: 500;
+}
+
+.button {
+    background-color: $accent-color;
+    color: $bg-color;
+    padding: 12px 24px;
+    border-radius: 24px;
+    margin-left: 16px;
+}
+
+.header__button img {
+    width: 42px;
+}
