@@ -306,4 +306,29 @@ body {
 .featured-item__subtitle {
   font-size: 16px;
   font-weight: 200;
+}
+
+.featured-time__text {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time__title {
+  padding: 24px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.time__button {
+  margin-right: 24px;
+  padding: 12px 24px;
+  display: inline-block;
+  text-decoration: none;
+  color: #262522;
+  border: 1px solid #262522;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
