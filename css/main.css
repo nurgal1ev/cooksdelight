@@ -392,14 +392,20 @@ body {
 
 .recipes__cards {
   margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .recipes__card {
   height: auto;
-  width: 33%;
+  width: 32.6%;
   background-color: #FFFBF2;
   border: 1px solid #dcd9d0;
   border-radius: 32px;
+}
+
+.recipes-card__img {
+  width: auto;
 }
 
 .recipes-card__text {
