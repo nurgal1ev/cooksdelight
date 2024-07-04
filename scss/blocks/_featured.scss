@@ -81,3 +81,14 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+.featured-item__img {
+    position: relative;
+}
+
+.featured-item__tag {
+    position: absolute;
+    z-index: 1;
+    padding: 185px;
+    padding-left: 535px;
+}
