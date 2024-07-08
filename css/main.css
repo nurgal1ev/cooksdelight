@@ -449,4 +449,19 @@ body {
   border-radius: 24px;
   font-size: 14px;
   font-weight: 500;
+}
+
+.recipes-card__img {
+  position: relative;
+}
+
+.recipes-card__tag {
+  position: absolute;
+  z-index: 1;
+  padding: 185px;
+  padding-left: 335px;
+}
+
+.recipes__cards.second {
+  margin-top: 16px;
 }/*# sourceMappingURL=main.css.map */
