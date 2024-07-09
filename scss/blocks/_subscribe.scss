@@ -1,0 +1,36 @@
+.subscribe__block {
+    background-image: url(./assets/imgs/sub.jpg);
+    height: 486px;
+}
+
+.subscribe__tag {
+    font-size: 18;
+    color: #ffddd3;
+    text-transform: uppercase;
+}
+
+.subscribe__text {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.subscribe__title {
+    font-family: $font-accent;
+    font-size: 80px;
+    color: $light;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.subscribe__subtitle {
+    font-size: 21px;
+    color: $light;
+    width: 648px;
+    line-height: 1.4;
+}
+
+.subscribe__img {
+    position: relative;
+}
