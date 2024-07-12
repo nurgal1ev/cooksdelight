@@ -603,4 +603,51 @@ body {
   padding: 12px 24px;
   border-radius: 24px;
   font-size: 14px;
+}
+
+.footer {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #363531;
+}
+
+.footer__items {
+  background-color: #262522;
+  padding: 24px 40px;
+  border-radius: 32px;
+}
+
+.footer__link {
+  color: #FFFBF2;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-right: 1px solid #363531;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.footer__link:last-child {
+  border-right: 0;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+}
+
+.footer__social {
+  padding-right: 16px;
+}
+
+.copyright {
+  text-align: center;
+  color: #9f9c95;
+  margin-top: 15px;
 }/*# sourceMappingURL=main.css.map */
