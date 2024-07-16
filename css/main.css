@@ -728,4 +728,67 @@ body {
 
 .dot {
   padding: 0 24px;
+}
+
+.recipe__article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.article__text {
+  grid-area: 1/1/2/2;
+}
+
+.article__cards {
+  grid-area: 1/2/2/3;
+}
+
+.recipe__article {
+  margin-top: 40px;
+}
+
+.article__text {
+  width: 645px;
+  text-align: left;
+}
+
+.article__description {
+  color: #595856;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.howto__title {
+  color: #262522;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.do__title {
+  color: #EE6352;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.do__subtitle {
+  color: #595856;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  width: 560px;
+}
+
+span {
+  color: #262522;
+  font-size: 16px;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
