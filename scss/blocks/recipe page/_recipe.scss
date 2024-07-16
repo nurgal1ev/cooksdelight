@@ -82,6 +82,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    padding-left: 70px;
 }
 
 .article__text {
@@ -137,4 +138,54 @@ span {
     color: $dark;
     font-size: 16px;
     font-weight: 500;
+}
+
+.article__cards {
+    margin-left: 56px;
+    text-align: left;
+}
+
+.article__card {
+    padding: 24px 16px;
+    padding-right: 32px;
+    background-color: $light;
+    display: block;
+    border-radius: 24px;
+    border: 1px solid #dcd9d0;
+    margin-bottom: 16px;
+}
+
+.cards__title {
+    font-family: $font-accent;
+    color: #EE6352;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.cards__subtitle {
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.cards__list {
+    list-style: disc;
+    padding-left: 30px;
+    font-size: 21px;
+    font-weight: normal;
+    color: $dark;
+    line-height: 1.5;
+}
+
+.cards__list.last {
+    list-style: none;
+    padding-left: 0;
+}
+
+.note {
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
 }
