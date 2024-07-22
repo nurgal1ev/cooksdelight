@@ -208,6 +208,90 @@ span {
     margin-bottom: 40px;
 }
 
+.list__instructions.last {
+    margin-bottom: 16px;
+}
+
 .instruct__img {
     margin-bottom: 40px;
+}
+
+.subtitle__decor {
+    color: #EE6352;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.do__subtitle.last {
+    color: $dark;
+}
+
+.article__description.last {
+    color: $dark;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border: 1px solid $dark;
+    border-radius: 24px;
+    width: 231px;
+    margin-top: 40px;
+}
+
+.share__links {
+    display: flex;
+    align-items: center;
+}
+
+.share__link {
+    margin-right: 12px;
+}
+
+.share__link:last-child {
+    margin-right: 0;
+}
+
+.share__title {
+    margin-right: 48px;
+}
+
+.author {
+    display: flex;
+
+}
+
+.author__name {
+    color: #7f7d79;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.author__description {
+    color: #7f7d79;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.author__btn {
+    color: $dark;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border: 1px solid $dark;
+    border-radius: 24px;
+}
+
+.author__img {
+    margin-right: 16px;
+    width: 120px;
+    height: 120px;
+}
+
+.line {
+    margin: 40px 0;
 }
