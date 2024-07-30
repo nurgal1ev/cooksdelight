@@ -4,12 +4,14 @@
 @import './base/base';
 
 // blocks
-@import './blocks/header';
-@import './blocks/main';
-@import './blocks/explore';
-@import './blocks/featured';
-@import './blocks/recipes';
-@import './blocks/aboutus';
-@import './blocks/subscribe';
-@import './blocks/footer';
-@import './blocks/recipe page/recipe';
+@import './blocks/mainpage/main';
+@import './blocks/mainpage/header';
+@import './blocks/mainpage/explore';
+@import './blocks/mainpage/featured';
+@import './blocks/mainpage/recipes';
+@import './blocks/mainpage/aboutus';
+@import './blocks/mainpage/subscribe';
+@import './blocks/mainpage/footer';
+@import './blocks/recipe/recipe';
+@import './blocks/learnpage/learnmore';
+@import './blocks/learnpage/russo';
