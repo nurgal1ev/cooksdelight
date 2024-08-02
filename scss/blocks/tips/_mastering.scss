@@ -1,0 +1,72 @@
+.mastering {
+    margin-top: 47px;
+}
+
+.featured__title.tips {
+    padding-left: 0;
+}
+
+.mastering__cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 24px;
+}
+
+.mastering__card {
+    height: auto;
+    background-color: $light;
+    border: 1px solid #dcd9d0;
+    border-radius: 32px;
+}
+
+.mastering-card__text {
+    background-color: $light;
+    border: 1px solid #dcd9d0;
+    border: 0;
+}
+
+.mastering-card__title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: $font-accent;
+    margin-bottom: 16px;
+}
+
+.mastering-card__subtitle {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.mastering-card__text {
+    padding: 0 24px;
+    padding-top: 24px;
+}
+
+.mastering-card__time {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    padding-bottom: 16px;
+    margin-top: 55px;
+}
+
+.mastering-time__title {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.mastering-time__button {
+    padding: 12px 24px;
+    display: inline-block;
+    text-decoration: none;
+    color: $accent-color;
+    border: 1px solid $accent-color;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}

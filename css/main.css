@@ -1062,4 +1062,139 @@ span {
   grid-column-gap: 16px;
   grid-row-gap: 24px;
   margin-top: 64px;
+}
+
+.tips__main {
+  margin-top: 80px;
+  margin-bottom: 112px;
+}
+
+.tips__item {
+  display: flex;
+  align-items: center;
+}
+
+.tips__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #262522;
+  width: 763px;
+  line-height: 1;
+}
+
+.tips__subtitle {
+  font-size: 21px;
+  width: 537px;
+  text-align: right;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.tools__item {
+  display: flex;
+  padding: 40px 32px;
+  border: 1px solid #c0bcb3;
+  border-radius: 32px;
+  justify-content: space-between;
+}
+
+.tools__items {
+  display: flex;
+  width: 33, 33333%;
+}
+
+.tools__icon {
+  margin-right: 40px;
+}
+
+.tools__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #EE6352;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.tools__subtitle {
+  font-size: 16px;
+  color: #262522;
+  font-weight: 300;
+  line-height: 1.3;
+  width: 285px;
+}
+
+.mastering {
+  margin-top: 47px;
+}
+
+.featured__title.tips {
+  padding-left: 0;
+}
+
+.mastering__cards {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 24px;
+}
+
+.mastering__card {
+  height: auto;
+  background-color: #FFFBF2;
+  border: 1px solid #dcd9d0;
+  border-radius: 32px;
+}
+
+.mastering-card__text {
+  background-color: #FFFBF2;
+  border: 1px solid #dcd9d0;
+  border: 0;
+}
+
+.mastering-card__title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 16px;
+}
+
+.mastering-card__subtitle {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.mastering-card__text {
+  padding: 0 24px;
+  padding-top: 24px;
+}
+
+.mastering-card__time {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  padding-bottom: 16px;
+  margin-top: 55px;
+}
+
+.mastering-time__title {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.mastering-time__button {
+  padding: 12px 24px;
+  display: inline-block;
+  text-decoration: none;
+  color: #262522;
+  border: 1px solid #262522;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

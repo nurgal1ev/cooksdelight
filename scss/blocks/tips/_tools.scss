@@ -1,0 +1,33 @@
+.tools__item {
+    display: flex;
+    padding: 40px 32px;
+    border: 1px solid #c0bcb3;
+    border-radius: 32px;
+    justify-content: space-between;
+}
+
+.tools__items {
+    display: flex;
+    width: 33,33333%;
+}
+
+.tools__icon {
+    margin-right: 40px;
+}
+
+.tools__title {
+    font-family: $font-accent;
+    font-size: 18px;
+    font-weight: 600;
+    color: #EE6352;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.tools__subtitle {
+    font-size: 16px;
+    color: $dark;
+    font-weight: 300;
+    line-height: 1.3;
+    width: 285px;
+}
