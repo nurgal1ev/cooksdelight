@@ -1,0 +1,77 @@
+.nourishing {
+    margin-top: 36px;
+}
+
+.nourishing__content {
+    background-color: #C4E5FC;
+    border-radius: 32px;
+    padding: 64px 40px 40px 40px;
+    height: 648px;
+}
+
+.nourishing__cards {
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nourishing__card {
+    width: 33%;
+}
+
+.nourishing-card__text {
+
+}
+
+.nourishing__img {
+    position: absolute;
+}
+
+.nourishing__item {
+    position: relative;
+    padding: 293px 24px 10px 24px;
+}
+
+.nourishing-card__title {
+    font-family: $font-accent;
+    font-size: 24px;
+    font-weight: 700;
+    color: $light;
+    margin-bottom: 12px;
+}
+
+.nourishing-card__subtitle {
+    color: $light;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nourishing-card__time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.nourishing-time__title {
+    color: $light;
+    font-size: 12px;
+}
+
+.nourishing-time__button {
+    padding: 12px 24px;
+    display: inline-block;
+    text-decoration: none;
+    color: $light;
+    border: 1px solid $light;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nourishing__item.third {
+    padding-top: 265px
+}
+
+
