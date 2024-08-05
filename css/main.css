@@ -162,11 +162,16 @@ body {
   border-radius: 32px;
 }
 
-.header__nav {
+.nav__link {
   font-size: 14px;
   color: #c0bcb3;
   margin-right: 24px;
   font-weight: 500;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -177,8 +182,9 @@ body {
   margin-left: 16px;
 }
 
-.header__button img {
+.search img {
   width: 42px;
+  display: inline-block;
 }
 
 .explore__content {
@@ -585,13 +591,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 24px;
+  padding: 6px 7px;
   margin-top: 48px;
 }
 
 .form {
   font-size: 21px;
-  padding: 0;
+  padding-left: 24px;
   margin: 0;
 }
 

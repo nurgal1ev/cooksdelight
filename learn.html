@@ -14,13 +14,15 @@
                     <img src="assets/imgs/icons/Logo.svg" alt="">
                 </div>
                 <nav class="nav">
-                    <a class="header__nav" href="index.html">HOME</a>
-                    <a class="header__nav" href="recipes.html">RECIPES</a>
-                    <a class="header__nav" href="cookingtips.html">COOKING TIPS</a>
-                    <a class="header__nav" href="#">ABOUT US</a>
+                    <a class="nav__link" href="index.html">HOME</a>
+                    <a class="nav__link" href="recipes.html">RECIPES</a>
+                    <a class="nav__link" href="cookingtips.html">COOKING TIPS</a>
+                    <a class="nav__link" href="#">ABOUT US</a>
                 </nav>
                 <div class="header__button">
-                    <img src="assets/imgs/icons/Search.svg" alt="">
+                    <button class="search">
+                        <img src="assets/imgs/icons/Search.svg" alt="">
+                    </button>
                     <button class="button">SUBSCRIBE</button>
                 </div>
             </div>
@@ -46,7 +48,7 @@
                     <div class="russo__author">
                         <img src="assets/imgs/Author.png" alt="">
                         <div class="share russo">
-                        <h1 class="share__title">FOLLOW ME</h1>
+                        <h2 class="share__title">FOLLOW ME</h2>
 
                         <div class="share__links">
                             <a class="share__link" href="">
@@ -65,7 +67,7 @@
                     </div>
 
                     <div class="russo__desciption">
-                        <h1 class="russo__title">From Italian Roots to Global Palates</h1>
+                        <h2 class="russo__title">From Italian Roots to Global Palates</h2>
                         <p class="russo__subtitle">Born and raised in the vibrant culinary landscape of Italy, my journey with food began in the heart of my family's kitchen. Surrounded by the aroma of fresh herbs, the sizzle of pans, and the laughter of loved ones, I developed a deep appreciation for the art of cooking. My culinary education took me from the historic streets of Rome to the bustling markets of Florence, where I honed my skills and cultivated a love for the simplicity and authenticity of Italian cuisine.
                         <br><br>
                         Driven by a relentless curiosity, I embarked on a global culinary exploration, seeking inspiration from the rich tapestry of flavors found in kitchens around the world. From the spicy markets of Marrakech to the sushi stalls of Tokyo, each experience added a unique brushstroke to my culinary canvas.
@@ -96,7 +98,7 @@
         <div class="container">
             <div class="featured__content">
                 <div class="featured__header">
-                    <h1 class="featured__title">featured recipes</h1>
+                    <h2 class="featured__title">featured recipes</h2>
                     <div class="featured__slider">
                         <button class="featured__button">
                             <img src="assets/imgs/icons/Arrow Left.svg" alt="">
@@ -110,11 +112,11 @@
                     <div class="featured__item">
                         <img class="featured-item__img first" src="assets/imgs/Recipe.png" alt="">
                         <div class="featured-item__text">
-                            <h1 class="featured-item__title">Savory Herb-Infused Chicken</h1>
+                            <h2 class="featured-item__title">Savory Herb-Infused Chicken</h2>
                             <p class="featured-item__subtitle">Indulge in the rich and savory symphony of flavors with our Savory Herb-Infused Chicken</p>
                         </div>
                         <div class="featured-time__text">
-                            <h1 class="time__title">40 Min - easy prep - 3 serves</h1>
+                            <h2 class="time__title">40 Min - easy prep - 3 serves</h2>
                             <a class="time__button" href="#">VIEW RECIPE</a>
                         </div>
                     </div>
@@ -123,11 +125,11 @@
                         <img class="featured-item__tag" src="assets/imgs/icons/VeganTag.svg" alt="">
                         <img class="featured-item__img" src="assets/imgs/Recipe2.png" alt="">
                         <div class="featured-item__text">
-                            <h1 class="featured-item__title">Decadent Chocolate Mousse</h1>
+                            <h2 class="featured-item__title">Decadent Chocolate Mousse</h2>
                             <p class="featured-item__subtitle">Dive into the velvety indulgence of our Decadent Chocolate Mousse. A dessert that transcends sweetness!</p>
                         </div>
                         <div class="featured-time__text">
-                            <h1 class="time__title">30 Min - medium prep- 4 serves</h1>
+                            <h2 class="time__title">30 Min - medium prep- 4 serves</h2>
                             <a class="time__button" href="#">VIEW RECIPE</a>
                         </div>
                     </div>
@@ -140,12 +142,16 @@
         <div class="container">
             <div class="subscribe__block">
                 <div class="subscribe__text">
-                    <h1 class="subscribe__tag">subscribe</h1>
-                    <h1 class="subscribe__title">Join the fun <br>Subscribe now!</h1>
+                    <h2 class="subscribe__tag">subscribe</h2>
+                    <h2 class="subscribe__title">Join the fun <br>Subscribe now!</h2>
                     <p class="subscribe__subtitle">Subscribe to our newsletter for a weekly serving of recipes, cooking tips, and exclusive insights straight to your inbox.</p>
                 </div>
                 <div class="subscribe__form">
-                    <input class="form" type="email" id="email" placeholder="Email Address"/>
+                    <form action="" method="get" class="form">
+                        <div class="form-example">
+                            <input type="email" name="email" id="email" placeholder="Email Address" required />
+                          </div>
+                    </form>
                     <button class="form__btn">SUBSCRIBE</button>
                 </div>
             </div>
